@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+
+    label {
+      font-family: 'Nunito';
+      color: #212322;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+      font-family: 'Nunito';
+    }
+
+    input[type=submit] {
+      background-color: #74aa50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+      font-family: 'Nunito';
+    }
+
+    input[type=submit]:hover {
+      background-color: dodgerblue;
+    }
+
+    .container {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    form {
+      background-color: #FBF6F3;
+      padding: 50px;
+      box-shadow: 5px 5px 10px #b2b2b2;
+      margin: 50px 50px 75px 50px;
+    }
+
+    .formContainer {
+      grid-column: 2;
+    }
+
+  </style>
+</head>
+
+<header>
+  <nav>
+    <!--horizontal-->
+    <a href="index.html">
+      <img src="nutUNewLogoBIG.svg" alt="nutrition u logo" style="float: left; height: 2.7em; margin: 10px 15px;" />
+    </a>
+    <!--button-->
+    <a href="sorry.html">
+      <p id="nav_button">Pre-Order</p>
+    </a>
+    <a href="sorry.html">
+      <p id="nav_section_02">E-Gift Cards</p>
+    </a>
+    <a href="hoursLocation.html">
+      <p id="nav_section_03">Hours + Location</p>
+    </a>
+    <a href="menu.html">
+      <p id="nav_section_04">Menu</p>
+    </a>
+  </nav>
+</header>
+
+<body style="background-image: url(img/background.jpg); background-size: 100%; background-repeat: no-repeat;">
+
+  <h1>Contact Us</h1>
+
+  <div class="container">
+    <div class="formContainer">
+    <form action="/action_page.php">
+      <h1>Contact Us</h1>
+      <br>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+      <label for="Phone">Phone</label>
+      <input type="text" id="lname" name="lastname" placeholder="123-456-7890">
+
+      <label for="email">Email</label>
+      <input type="text" id="lname" name="lastname" placeholder="example@example.com">
+
+      <label for="subject">Subject</label>
+      <select id="country" name="country">
+        <option value="jobOpenings">Job Openings</option>
+        <option value="flavorSuggestions">Flavor Suggestions</option>
+        <option value="discounts">Discounts</option>
+        <option value="teaDrops">Tea Drops</option>
+        <option value="products">Our Products</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Write something..." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  </div>
+
+</body>
+
+<footer>
+  <p id="footElement1">© Copyright Nutrition U 2021</p>
+  <a href="contact.html" id="footElement2">CONTACT</a>
+  <a href="https://www.instagram.com/nutrition__u/">
+    <img src="img/instagramWhite64.png" alt="logo placeholder" class="littleLogo" />
+  </a>
+  <a href="https://www.facebook.com/NutritionU">
+    <img src="img/facebookWhite64.png" alt="logo placeholder" class="littleLogo" />
+  </a>
+</footer>
+
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hours and Location</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+  <style>
+
+  .container {
+    display: grid;
+    grid-column-template: 20px 1fr 20px 1fr 20px;
+  }
+
+  .combos {
+    grid-column: 2;
+    margin-top: 75px;
+    padding: 25px;
+    height: 555px;
+    margin-left: 100px;
+    position: fixed;
+  }
+
+  .main {
+    grid-column: 4;
+    margin-top: 100px;
+    margin-bottom: 65px;
+    padding: 25px;
+    background-color: #FBF6F3;
+    box-shadow: 5px 5px 10px #b2b2b2;
+    height: 555px;
+    margin-right: 100px;
+  }
+
+  </style>
+
+</head>
+
+<header style="grid-column-start: 1; grid-column-end: 6;">
+  <nav>
+    <!--horizontal-->
+    <a href="index.html">
+      <img src="nutUNewLogoBIG.svg" alt="nutrition u logo" style="float: left; height: 2.7em; margin: 10px 15px;" />
+    </a>
+    <!--button-->
+    <a href="sorry.html">
+      <p id="nav_button">Pre-Order</p>
+    </a>
+    <a href="sorry.html">
+      <p id="nav_section_02">E-Gift Cards</p>
+    </a>
+    <a href="hoursLocation.html">
+      <p id="nav_section_03">Hours + Location</p>
+    </a>
+    <a href="menu.html">
+      <p id="nav_section_04">Menu</p>
+    </a>
+  </nav>
+</header>
+
+<body style="background-image: url(img/background.jpg); background-size: 100%; background-repeat: no-repeat;">
+
+  <div class="container">
+    <section class="combos">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.189270650008!2d-93.23880274893376!3d44.980466078995576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32d05beddacdd%3A0x64b60512ee0f2429!2sNutrition%20U!5e0!3m2!1sen!2sus!4v1639418680997!5m2!1sen!2sus" height="555px" width="550px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section class="main">
+      <h2>Hours</h2>
+      <br>
+      <p>Monday-Friday: 7am-5pm</p>
+      <p>Saturday and Sunday: 10am-1pm</p>
+      <br>
+      <br>
+      <p><a href="tel:612-245-1577" id="callLink">Call us</a> about holiday hours!</p>
+      <br>
+      <br>
+      <h2>Location</h2>
+      <br>
+      <p>1316 4th St SE</p>
+      <p>Minneapolis, Minnesota 55414</p>
+      <br>
+      <br>
+      <p>Located in the historic Dinkydale Mall in the heart of Dinkytown.
+        Inside, all the way down the hallway and to the left.</p>
+    </section>
+
+
+
+    </section>
+  </div>
+</body>
+
+<footer>
+  <p id="footElement1">© Copyright Nutrition U 2021</p>
+  <a href="contact.html" id="footElement2">CONTACT</a>
+  <a href="https://www.instagram.com/nutrition__u/">
+    <img src="img/instagramWhite64.png" alt="logo placeholder" class="littleLogo" />
+  </a>
+  <a href="https://www.facebook.com/NutritionU">
+    <img src="img/facebookWhite64.png" alt="logo placeholder" class="littleLogo" />
+  </a>
+</footer>
+
+</html>
